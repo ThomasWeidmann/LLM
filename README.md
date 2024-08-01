@@ -16,10 +16,12 @@ pip install -r requirements.txt
 Here is an example sentence using the pretrained model
 ```python
 # Eingabe
-What is the difference
+prompt = "What is the difference"
+print(promt)
 
 # Ausgabe
-[(' between', '97.99%'), (' of', '0.52%'), (' in', '0.34%'), (' to', '0.23%'), ('?', '0.14%'), ('?\n', '0.08%'), (' with', '0.07%'), (' for', '0.07%'), (' from', '0.06%'), (' that', '0.05%')]
+output_text = """[(' between', '97.99%'), (' of', '0.52%'), (' in', '0.34%'), (' to', '0.23%'), ('?', '0.14%'), ('?\n', '0.08%'), (' with', '0.07%'), (' for', '0.07%'), (' from', '0.06%'), (' that', '0.05%')]
 What is the difference between educating and proactive with kids about natural amnesia?
-Transitioning Learning Doctors (QIS) is a university that offers medical institutions effective by engaging and nurturing children with neurological side effects disorders. There is also a significant centers and a decent social science collection that provides anettet preparedness for the students in the
+Transitioning Learning Doctors (QIS) is a university that offers medical institutions effective by engaging and nurturing children with neurological side effects disorders. There is also a significant centers and a decent social science collection that provides anettet preparedness for the students in the"""
+print(output_text)
 ```

@@ -8,4 +8,6 @@ I trained my own transformer model on an NVidia A100 40GB using the C4 dataset (
 
 1. [Installation](#installation)
 
-``` pip install -r requirements.txt
+```sh
+pip install -r requirements.txt
+```
